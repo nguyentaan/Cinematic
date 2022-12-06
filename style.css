@@ -70,7 +70,7 @@ html{
     color: white;
 }
 .content-container{
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 .featured-content{
     height: 50vh;
@@ -88,7 +88,7 @@ html{
     letter-spacing: 0.1em;
 }
 .featured-desc{
-    
+    letter-spacing: 0.2em;
 }
 .featured-buy-see{
     height: 20vh;
