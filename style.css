@@ -207,3 +207,145 @@ html{
     opacity: 0;
     transition: 1s all ease-in-out;
 }
+/*--------------------------Sub navbar------------------------------------*/
+.subnav{
+    width: 100%;
+    height: 36px;
+    background-color: #D4A5FD;
+    position: absolute;
+    top: 50px;
+}
+.subnav-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+    height: 100%;
+    color: black;
+}
+.home-page{
+    display: flex;
+    align-items: center;
+}
+.home{
+    width: 25px;
+    margin-right: 20px;
+}
+.infor-container{
+    flex: 2;
+}
+.infor-list{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+.infor-list-item{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: 600px;
+}
+.special{
+    text-decoration: underline;
+}
+.more-than{
+    width: 15px;
+}
+/* ------------------------------FILM CONTENT---------------------- */
+.film-container{
+    position: relative;
+    background-color: #E7D5F7;
+    height: 100%;
+    color: #151515;
+    top: 85px;
+}
+.film-contain-container{
+
+}
+.feature-content-film{
+    height: 89vh;
+    padding: 50px 20%;
+}
+.featured-title-film{
+    width: 200px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 60px;
+    letter-spacing: 0.1em;
+}
+.line{
+    width: 100%;
+    height: 0px;
+    left: 140.5px;
+    top: 302.7px;
+    border: 1px solid #000000;
+    transform: rotate(-0.02deg);
+}
+.main-content-film{
+    display: flex;
+    justify-content: space-around;
+    padding:24px 0;
+    width: 100%;
+    height: 380px;
+}
+.image-frame{
+    width: 200px;
+    height: 258px;
+    border-radius: 5px;
+    padding-right: 20px;
+}
+.background-film{
+    width: 250px;
+    height: 330px;
+    border: 3px solid #fff;
+    box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+.container-box-film{
+    width: 50%;
+}
+.infor-film{
+    list-style: none;
+    background-color: #F3EAFB;
+    height: 330px;
+    border-radius: 5px;
+    padding:10px;
+    box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+.infor-film-item{
+    font-weight: 400px;
+    font-size: 20px;
+}
+.main-title{
+    font-weight:600;
+    font-size: 24px;
+}
+.box-buy-ticket{
+    display: flex;
+    align-items: flex-end;
+    /* align-self: flex-end; */
+    height: 20%;
+}
+.buy-ticket{
+    position: relative;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+}
+.buy-ticket:hover{
+    border: 1px solid white
+}
+.buy-ticket:active{
+    box-shadow: 4px 4px 12px #c5c5c5,
+    -4px -4px 12px #ffffff;
+}
+.buy-ticket-item{
+    font-size: 18px;
+}
